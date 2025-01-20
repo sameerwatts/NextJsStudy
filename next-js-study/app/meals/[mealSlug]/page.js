@@ -6,7 +6,7 @@ const MealType = (props) => {
         <>
         <h1>
            Meal type page 
-           <p>{props.params.slug}</p>
+           <p>{props.params.mealSlug}</p>
         </h1>
         <Link href='/meals'>All Meals</Link>
         </>
