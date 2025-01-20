@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import './globals.css';
+import FoodiesHeader from '@/component/foodies-header';
 
 export const metadata = {
   title: 'NextLevel Food',
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
           </svg>
         </div>
         <Link href='/'>Home</Link>
+        <FoodiesHeader />
         {children}
       </body>
     </html>
