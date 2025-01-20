@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './globals.css';
 
 export const metadata = {
@@ -29,7 +30,7 @@ export default function RootLayout({ children }) {
             ></path>
           </svg>
         </div>
-
+        <Link href='/'>Home</Link>
         {children}
       </body>
     </html>
